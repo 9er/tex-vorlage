@@ -1,0 +1,13 @@
+# vim
+*.swp
+
+# tex
+*.synctex.gz
+*.aux
+*.log
+*.out
+*.pdf
+*.dvi
+*.toc
+*.fdb_latexmk
+*.fls

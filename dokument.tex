@@ -1,0 +1,44 @@
+\documentclass[12pt,a4paper,bibtotoc]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage[scaled=1.0]{helvet}
+\usepackage[margin=3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{nameref}
+\usepackage[hidelinks]{hyperref}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{multirow}
+
+\author{Autor}
+\title{Titel}
+\date{Datum}
+
+\setcounter{tocdepth}{3}
+\begin{document}
+
+\hypersetup{
+  pdftitle    = {Titel},
+  pdfauthor   = {Autor},
+  pdfsubject  = {},
+  pdfkeywords = {},
+  pdfcreator  = {pdflatex},
+  pdfproducer = {LaTeX with hyperref},
+  draft       = {true}
+}
+
+\include{deckblatt}
+\newpage
+\include{inhaltsverzeichnis}
+\newpage
+\include{abkuerzungen}
+\newpage
+\include{abbildungen}
+\newpage
+\include{kapitel1}
+\newpage
+\include{literatur}
+\newpage
+\include{anhang}
+
+\end{document}
